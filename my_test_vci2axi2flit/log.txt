@@ -1,0 +1,6 @@
+g++ -Wall -I. -I/usr/local/systemc-2.2/include -I/home/geo/tools/TLM-2009-07-15/include/tlm -c slave_device.cpp -DUSE_SYSTEMC_TLM
+g++ -Wall -I. -I/usr/local/systemc-2.2/include -I/home/geo/tools/TLM-2009-07-15/include/tlm -c dummy_slave.cpp -DUSE_SYSTEMC_TLM
+g++ -Wall -I. -I/usr/local/systemc-2.2/include -I/home/geo/tools/TLM-2009-07-15/include/tlm -c master_device.cpp -DUSE_SYSTEMC_TLM
+g++ -Wall -I. -I/usr/local/systemc-2.2/include -I/home/geo/tools/TLM-2009-07-15/include/tlm -c network_base.cpp -DUSE_SYSTEMC_TLM
+g++ -Wall -I. -I/usr/local/systemc-2.2/include -I/home/geo/tools/TLM-2009-07-15/include/tlm -c dummy_master.cpp -DUSE_SYSTEMC_TLM
+g++ -Wall -I. -I/usr/local/systemc-2.2/include -I/home/geo/tools/TLM-2009-07-15/include/tlm -c sc_main.cpp -DUSE_SYSTEMC_TLM
